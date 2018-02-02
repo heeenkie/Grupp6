@@ -14,7 +14,7 @@ public class andreas_spel extends AppCompatActivity {
 
     TextView tv_time;
     Button b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_startover, b_start;
-    int oldValue, newValue, time= 30, num1, num2, num3, num4, num5, num6, num7, num8, num9;
+    int oldValue, newValue, time= 20, num1, num2, num3, num4, num5, num6, num7, num8, num9;
     CountDownTimer timer;
 
     @Override
@@ -47,11 +47,12 @@ public class andreas_spel extends AppCompatActivity {
         b_8.setEnabled(false);
         b_9.setEnabled(false);
 
-        timer = new CountDownTimer(30000, 1000){
+        timer = new CountDownTimer(20000, 1000){
             @Override
             public void onTick(long millisUntilFinished){
                 time--;
                 tv_time.setText("Time: " + time);
+                b_start.setEnabled(false);
             }
 
             @Override
@@ -65,6 +66,10 @@ public class andreas_spel extends AppCompatActivity {
                 b_7.setEnabled(false);
                 b_8.setEnabled(false);
                 b_9.setEnabled(false);
+                b_start.setEnabled(true);
+                time=20;
+                tv_time.setText("Time: " + time);
+                timer.cancel();
 
             }
 
@@ -193,16 +198,28 @@ public class andreas_spel extends AppCompatActivity {
         b_startover.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                b_1.setEnabled(true);
-                b_2.setEnabled(true);
-                b_3.setEnabled(true);
-                b_4.setEnabled(true);
-                b_5.setEnabled(true);
-                b_6.setEnabled(true);
-                b_7.setEnabled(true);
-                b_8.setEnabled(true);
-                b_9.setEnabled(true);
+                b_1.setEnabled(false);
+                b_2.setEnabled(false);
+                b_3.setEnabled(false);
+                b_4.setEnabled(false);
+                b_5.setEnabled(false);
+                b_6.setEnabled(false);
+                b_7.setEnabled(false);
+                b_8.setEnabled(false);
+                b_9.setEnabled(false);
+                b_1.setBackgroundResource(android.R.drawable.btn_default);
+                b_2.setBackgroundResource(android.R.drawable.btn_default);
+                b_3.setBackgroundResource(android.R.drawable.btn_default);
+                b_4.setBackgroundResource(android.R.drawable.btn_default);
+                b_5.setBackgroundResource(android.R.drawable.btn_default);
+                b_6.setBackgroundResource(android.R.drawable.btn_default);
+                b_7.setBackgroundResource(android.R.drawable.btn_default);
+                b_8.setBackgroundResource(android.R.drawable.btn_default);
                 b_9.setBackgroundResource(android.R.drawable.btn_default);
+                time=20;
+                b_start.setEnabled(true);
+                timer.cancel();
+                tv_time.setText("Time: " + time);
 
             }
         });
