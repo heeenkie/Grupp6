@@ -8,13 +8,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import java.util.Random;
+import java.lang.Object;
+import java.lang.String;
 
 public class andreas_spel extends AppCompatActivity {
 
 
     TextView tv_time;
     Button b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_startover, b_start;
-    int oldValue, newValue, time= 20, num1, num2, num3, num4, num5, num6, num7, num8, num9;
+    int oldValue = 0, newValue, time= 20, num1, num2, num3, num4, num5, num6, num7, num8, num9;
     CountDownTimer timer;
 
     @Override
@@ -46,6 +49,17 @@ public class andreas_spel extends AppCompatActivity {
         b_7.setEnabled(false);
         b_8.setEnabled(false);
         b_9.setEnabled(false);
+
+
+
+
+
+
+
+
+
+
+
 
         timer = new CountDownTimer(20000, 1000){
             @Override
@@ -88,7 +102,41 @@ public class andreas_spel extends AppCompatActivity {
                 b_7.setEnabled(true);
                 b_8.setEnabled(true);
                 b_9.setEnabled(true);
+
+                Random r = new Random();
+                num1 = r.nextInt((100-10)+1)+10;
+                num2 = r.nextInt((100-10)+1)+10;
+                num3 = r.nextInt((100-10)+1)+10;
+                num4 = r.nextInt((100-10)+1)+10;
+                num5 = r.nextInt((100-10)+1)+10;
+                num6 = r.nextInt((100-10)+1)+10;
+                num7 = r.nextInt((100-10)+1)+10;
+                num8 = r.nextInt((100-10)+1)+10;
+                num9 = r.nextInt((100-10)+1)+10;
+
+                String str1 = Integer.toString(num1);
+                String str2 = Integer.toString(num2);
+                String str3 = Integer.toString(num3);
+                String str4 = Integer.toString(num4);
+                String str5 = Integer.toString(num5);
+                String str6 = Integer.toString(num6);
+                String str7 = Integer.toString(num7);
+                String str8 = Integer.toString(num8);
+                String str9 = Integer.toString(num9);
+
+
+                b_1.setText(str1);
+                b_2.setText(str2);
+                b_3.setText(str3);
+                b_4.setText(str4);
+                b_5.setText(str5);
+                b_6.setText(str6);
+                b_7.setText(str7);
+                b_8.setText(str8);
+                b_9.setText(str9);
                 timer.start();
+
+
             }
             });
 
@@ -97,10 +145,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 b_1.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num1;
+                num1=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_1.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_1.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -108,10 +161,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_2.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num2;
+                num2=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_2.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_2.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -119,10 +177,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_3.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num3;
+                num3=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_3.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_3.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
 
         });
@@ -131,10 +194,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_4.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num4;
+                num4=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_4.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_4.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -142,10 +210,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_5.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num5;
+                num5=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_5.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_5.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -153,10 +226,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_6.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num6;
+                num6=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_6.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_6.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -164,10 +242,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_7.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num7;
+                num7=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_7.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_7.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -175,10 +258,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_8.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num8;
+                num8=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_8.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_8.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
             }
         });
 
@@ -186,10 +274,15 @@ public class andreas_spel extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 b_9.setEnabled(false);
-                if (oldValue<newValue)
+                newValue = num9;
+                num9=100;
+                if (oldValue<=newValue && newValue <= num1 && newValue <= num2 && newValue <= num3 && newValue <= num4 && newValue <= num5 && newValue <= num6 && newValue <= num7 && newValue <= num8 && newValue <= num9)
                     b_9.setBackgroundColor(Color.parseColor("#00ff00"));
-                else
+                else{
                     b_9.setBackgroundColor(Color.parseColor("#ff0000"));
+
+                    }
+                oldValue=newValue;
 
             }
         });
@@ -217,6 +310,7 @@ public class andreas_spel extends AppCompatActivity {
                 b_8.setBackgroundResource(android.R.drawable.btn_default);
                 b_9.setBackgroundResource(android.R.drawable.btn_default);
                 time=20;
+                oldValue = 0;
                 b_start.setEnabled(true);
                 timer.cancel();
                 tv_time.setText("Time: " + time);
