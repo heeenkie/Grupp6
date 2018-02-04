@@ -11,71 +11,92 @@
         android:id="@+id/bt0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="112dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt1"
+        app:layout_constraintEnd_toStartOf="@+id/bt1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/bt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="112dp" />
+        app:layout_constraintEnd_toStartOf="@+id/bt2"
+        app:layout_constraintStart_toEndOf="@+id/bt0"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="112dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt1" />
 
     <Button
         android:id="@+id/bt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt4"
+        app:layout_constraintEnd_toStartOf="@+id/bt4"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/bt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintEnd_toStartOf="@+id/bt5"
+        app:layout_constraintStart_toEndOf="@+id/bt3"
+        app:layout_constraintTop_toBottomOf="@+id/bt1" />
 
     <Button
         android:id="@+id/bt5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt4" />
 
     <Button
         android:id="@+id/bt6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt7"
+        app:layout_constraintEnd_toStartOf="@+id/bt7"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/bt7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintEnd_toStartOf="@+id/bt8"
+        app:layout_constraintStart_toEndOf="@+id/bt6"
+        app:layout_constraintTop_toBottomOf="@+id/bt4" />
 
     <Button
         android:id="@+id/bt8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
         android:text="isac"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/bt7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt7" />
 </android.support.constraint.ConstraintLayout>

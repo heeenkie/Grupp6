@@ -1,5 +1,6 @@
 package com.example.andreashenriksson.ourapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,16 +27,17 @@ public class MainActivity extends AppCompatActivity {
         b_andreas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, andreas_spel.class));
 
 
-                
+
             }
         });
 
         b_isac.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainActivity.this, isac_spel.class));
 
 
             }
