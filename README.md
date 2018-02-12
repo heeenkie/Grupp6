@@ -1,3 +1,3 @@
 # Grupp6
-Hemsida för exjobb!
-isac är sämst
+Hemsida för Projektarbete.
+note: isac är sämst!
