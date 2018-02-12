@@ -3,7 +3,7 @@
 .mainPageStudent
 {
 	position: absolute;
-	height: 100vw;
+	height: 50vw;
 	width: 50vw;
 	text-align: center;
 	background-color: lightblue;
@@ -12,9 +12,19 @@
 .mainPageCompany
 {
 	position: absolute;
-	text-align: center;
-	height: 100vw;
+	text-align: center;	
+	height: 50vw;
 	width: 50vw;
 	background-color: lightgreen;
 	right: 0px;
+}
+.companyButton
+{
+	position: relative;
+	margin-top: 25vw;
+}
+.studentButton
+{
+	position: relative;
+	margin-top: 25vw;
 }
