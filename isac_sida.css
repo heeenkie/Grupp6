@@ -2,14 +2,19 @@
 
 .mainPageStudent
 {
+	position: absolute;
 	height: 100vw;
 	width: 50vw;
-	 background-color: lightblue;
+	text-align: center;
+	background-color: lightblue;
+	left:0px;
 }
 .mainPageCompany
 {
+	position: absolute;
+	text-align: center;
 	height: 100vw;
 	width: 50vw;
-	 background-color: lightgreen;
-	 margin-right:  0vw;
+	background-color: lightgreen;
+	right: 0px;
 }
