@@ -216,9 +216,15 @@ span.psw {
 }
 
 span.signup{
+<<<<<<< HEAD
     display: none;
     text-align:center;
     
+=======
+    position: relative;
+    margin-left:  5%;
+  
+>>>>>>> e2ac0390ac6da106b354e3677fbc9bb1bda63376
 }
 
 /* Add Zoom Animation */
