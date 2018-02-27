@@ -215,8 +215,10 @@ span.psw {
     cursor: pointer;
 }
 
-.signup{
-    float: center;
+span.signup{
+    position: relative;
+    margin-left:  5%;
+  
 }
 
 /* Add Zoom Animation */

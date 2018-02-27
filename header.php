@@ -52,7 +52,7 @@
 
 			<div class="container" style="background-color:#f1f1f1">
 				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Avbryt</button>
-				<span class="signup"> <a href="signup.php">Registrera dig här</span>
+				<span class="signup"> <a href="signup.php">Registrera dig här </a></span>
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
 		</form>
