@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login </title>
+	<title>StudentHissen </title>
 	<link rel="stylesheet" type="text/css" href="header.css">
 	<meta http-equiv="content-type content="text/html; charset="UTF-8">
 
@@ -52,11 +52,7 @@
 
 			<div class="container" style="background-color:#f1f1f1">
 				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Avbryt</button>
-<<<<<<< HEAD
-				<span class="signup"> <a href="signup.php">Registrera dig här</a></span>
-=======
 				<span class="signup"> <a href="signup.php">Registrera dig här </a></span>
->>>>>>> e2ac0390ac6da106b354e3677fbc9bb1bda63376
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
 		</form>
