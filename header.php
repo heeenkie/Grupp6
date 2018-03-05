@@ -18,13 +18,13 @@ session_start();
 		</div>
 
 		
-		<button class="hem_btn"><a href="index.php">Hem</a></button>
+		<button class="home_btn"><a href="index.php">Hem</a></button>
 		<button class="anslutna_företag_btn"><a href="anslutna_företag.php">Visa anslutna företag</a></button>
 		<button><a href="extra.php">Extra</a></button>
 			
 		
 		
-		<button class="om_oss_btn"><a href="om_oss.php">Om oss</a></button>
+		<button class="about_us_btn"><a href="about_us.php">Om oss</a></button>
 	
 		<div class="dropdown">
 			<button class="drop-btn">Mina sidor</button>
