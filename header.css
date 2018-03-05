@@ -2,9 +2,9 @@
 .topBar {
     background-color: rgba(125, 125, 125, 0.4);
     width: 100%;
-    height: 5000px;
-    
+    height: 50px;   
 }
+
 /*stil till Studenthissen*/
 .logo_div{
     position: absolute;
@@ -30,7 +30,7 @@ button{
     height: 100%;
     text-align: center;
     font-size: 16px;
-   background-color: rgba(125,125,125,0);
+    background-color: rgba(125,125,125,0);
 }
 
 /*stil till texten i knapparna*/
@@ -38,19 +38,18 @@ button a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 /*stil till knapparna när man hovrar över dem*/
 button:hover { 
     background-color: rgb(220, 220, 220);
+    text-decoration: underline;
 }
-button:hover {
-    border-bottom: 5px solid white;
 
-}
-.om_oss_btn{
+.about_us_btn{
     float: right;
-    margin-right: 5vw;
+    margin-right: 4px;
 }
-.hem_btn{
+.home_btn{
     float: left;
     margin-left: 5vw;
 }
@@ -109,18 +108,8 @@ button:hover {
     background-color: #ddd;
 }
 
-/*stil till about*/
-.about-btn{
-    margin-right: 4px;
-}
 
-
-
-
-
-
-
-body {font-family: Arial, Helvetica, sans-serif;}
+.body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
