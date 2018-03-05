@@ -5,7 +5,7 @@ session_start();
 <html lang="en">
 <head>
 	<title>StudentHissen </title>
-	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<meta http-equiv="content-type content="text/html; charset="UTF-8">
 
 </head>
@@ -20,7 +20,7 @@ session_start();
 		
 		<button class="home_btn"><a href="index.php">Hem</a></button>
 		<button class="connected_companies_btn"><a href="connected_companies.php">Visa anslutna företag</a></button>
-		<button><a href="extra.php">Extra</a></button>
+		<button><a href="s_profile.php">Extra</a></button>
 			
 		
 		
@@ -35,8 +35,7 @@ session_start();
 		</div>
 	</div>		
 	<div id="id01" class="modal">
-		<!--<form class="modal-content animate" action="/action_page.php">-->
-			<div class="modal-content animate">
+		<div class="modal-content animate">
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 				<img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -64,11 +63,10 @@ session_start();
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
 			
-		<!--</form>-->
 		</div>
 	</div>
 	<div id="id02" class="modal">
-		<form class="modal-content animate" action="/action_page.php">
+		<div class="modal-content animate">
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
 				<img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -90,7 +88,7 @@ session_start();
 				<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Avbryt</button>
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
-		</form>
+</div>
 	</div>
 
 	<script>

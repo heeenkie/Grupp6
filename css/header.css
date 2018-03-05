@@ -1,15 +1,16 @@
 /*stil till sidans övre del*/
 .topBar {
-    background-color: rgba(125, 125, 125, 0.4);
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 50px;   
+    height: 50px;  
+    border-radius: 5px; 
 }
 
 /*stil till Studenthissen*/
 .logo_div{
     position: absolute;
     left: 43%;
-    background-color: rgba(125,125,125,0);
+    background-color: rgb(255, 255, 255);
     font-family: verdana;
     z-index:1;
     width: 120px;
@@ -20,22 +21,23 @@
 }
 .logo{
     top: 50%;
-    color: rgb(255,255,255);
+    color: rgb(134, 134, 134);
 }
 
 
 /*stil till knapparna*/
 button{
+    color: rgb(138, 138, 138);
     border: none;
     height: 100%;
     text-align: center;
     font-size: 16px;
-    background-color: rgba(125,125,125,0);
+    background-color: rgb(255, 255, 255);
 }
 
 /*stil till texten i knapparna*/
 button a{
-    color: rgb(255, 255, 255);
+    color: rgb(139, 139, 139);
     text-decoration: none;
 }
 
@@ -43,11 +45,12 @@ button a{
 button:hover { 
     background-color: rgb(220, 220, 220);
     text-decoration: underline;
+    border-radius: 5px;
 }
 
 .about_us_btn{
     float: right;
-    margin-right: 4px;
+    margin-right: 5vw;
 }
 .home_btn{
     float: left;
@@ -56,19 +59,16 @@ button:hover {
 /* stil till dropbtn */
 .drop-btn {
     background-color: rgba(125,125,125,0);
-    color: rgb(255, 255, 255);
     font-size: 16px;
     border: none;
     cursor: pointer;
     height: 100%;
     margin-left: 0px;
 }
-.form{
-    color: white    
-}
+
 /* positionerar innehållet i dropdown containern */
 .dropdown {
-    float:right;
+    float: right;
     position: relative;
     display: inline-block;
     height: 100%;
@@ -108,6 +108,7 @@ button:hover {
 /* stil till knappen när innehållet i dropdown knappen visas även om inte muspekaren är på just knappen*/
 .dropdown:hover .drop-btn {
     background-color: #ddd;
+    border-radius: 5px;
 }
 
 
@@ -244,7 +245,7 @@ span.signup{
     } 
   }
   @media only screen and (max-width: 500px) { 
-    .om_oss_btn { 
+    .about_us_btn { 
       display: none; 
     } 
   }

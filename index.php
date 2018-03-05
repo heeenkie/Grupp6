@@ -2,10 +2,9 @@
 	include_once 'header.php';
 ?>
 
-<div>
-	<p> hej isac är bög </p>
-	
-</div>
+	<div>
+		<img class="img" src="imege/startpic.jpg" width=100% hight=100% alt="hej">
+	</div>
 <?php
 
 	include_once 'footer.php';
