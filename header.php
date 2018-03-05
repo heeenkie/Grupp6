@@ -1,3 +1,6 @@
+<?php 
+session_start();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,24 +40,29 @@
 				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 				<img src="img_avatar2.png" alt="Avatar" class="avatar">
 			</div>
-
+			<form class="signup-form" action="includes/login.inc.php" method="POST">
 			<div class="container">
-				<label for="uname"><b>Användarnamn</b></label>
-				<input type="text" placeholder="Enter Username" name="uname" required>
+				
+				<label for="email"><b>E-mail</b></label>
+				<input type="text" placeholder="Enter E-mail" name="email" required>
 
-				<label for="psw"><b>Lösenord</b></label>
-				<input type="password" placeholder="Enter Password" name="psw" required>
+				<label for="pwd"><b>Lösenord</b></label>
+				<input type="password" placeholder="Enter Password" name="pwd" required>
 							
-				<button class="loginbtn" type="submit">Logga in</button>
+				<button class="loginbtn" type="submit" name="submit">Logga in</button>
+				</form>
 				<label>
+
 				<input type="checkbox" checked="checked" name="remember"> Kom ihåg mig?</label>
 			</div>
-
+			
+			
 			<div class="container" style="background-color:#f1f1f1">
 				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Avbryt</button>
 				<span class="signup"> <a href="signup.php">Registrera dig här </a></span>
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
+			
 		</form>
 	</div>
 	<div id="id02" class="modal">
