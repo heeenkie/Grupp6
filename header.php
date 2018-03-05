@@ -38,7 +38,7 @@ session_start();
 		<div class="modal-content animate">
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-				<img src="img_avatar2.png" alt="Avatar" class="avatar">
+				<img src="image/avatar.png" alt="Avatar" class="avatar">
 			</div>
 			<form class="signup-form" action="includes/login.inc.php" method="POST">
 			<div class="container">
@@ -69,7 +69,7 @@ session_start();
 		<div class="modal-content animate">
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-				<img src="img_avatar2.png" alt="Avatar" class="avatar">
+				<img src="image/avatar.png" alt="Avatar" class="avatar">
 			</div>
 
 			<div class="container">

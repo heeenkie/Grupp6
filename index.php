@@ -3,7 +3,7 @@
 ?>
 
 	<div>
-		<img class="img" src="imege/startpic.jpg" width=100% hight=100% alt="hej">
+		<img class="img" src="image/startpic.jpg" width=100% hight=100% alt="hej">
 	</div>
 <?php
 
