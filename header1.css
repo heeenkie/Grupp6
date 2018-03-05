@@ -1,0 +1,120 @@
+/*stil till sidans övre del*/
+.topBar {
+    background-color: rgba(125, 125, 125, 0.4);
+    width: 100%;
+    height: 50px;
+    
+}
+/*stil till Studenthissen*/
+.logo_div{
+    position: absolute;
+    left: 43%;
+    background-color: rgba(125,125,125,0);
+    font-family: verdana;
+    z-index:1;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+
+
+}
+.logo{
+    top: 50%;
+    color: rgb(255,255,255);
+}
+
+
+/*stil till knapparna*/
+button{
+    border: none;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(125,125,125,0);
+}
+
+/*stil till texten i knapparna*/
+button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/*stil till knapparna när man hovrar över dem*/
+button:hover { 
+    background-color: rgb(207, 207, 207);
+    text-decoration: underline;
+}
+
+.about_us_btn{
+    float: right;
+    margin-right: 4px;
+}
+.home_btn{
+    float: left;
+    margin-left: 5vw;
+}
+/* stil till dropbtn */
+.drop-btn {
+    background-color: rgba(125,125,125,0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    margin-left: 0px;
+}
+
+/* positionerar innehållet i dropdown containern */
+.dropdown {
+    float:right;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    margin-left: 0px;
+    
+}
+
+/* dropdown innehåll (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 108px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* stil till länkarna i dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* stil när man hovrar över länkarna i dropdown knappen */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;}
+
+/* visar innehållet när man hovrar över knappen */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* stil till knappen när innehållet i dropdown knappen visas även om inte muspekaren är på just knappen*/
+.dropdown:hover .drop-btn {
+    background-color: #ddd;
+}
+
+
+@media only screen and (max-width: 800px) { 
+    .logo { 
+      display: none; 
+    } 
+  }
+  @media only screen and (max-width: 500px) { 
+    .about_us_btn { 
+      display: none; 
+    } 
+  }

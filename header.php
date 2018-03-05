@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login </title>
+	<title>StudentHissen </title>
 	<link rel="stylesheet" type="text/css" href="header.css">
 	<meta http-equiv="content-type content="text/html; charset="UTF-8">
 
