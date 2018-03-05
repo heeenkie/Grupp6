@@ -28,7 +28,7 @@ if(isset($_POST['submit'])){
 				}elseif ($hashedPwdCheck == true) {
 					$_SESSION['u_email'] = $row['user_id'];
 
-					header("location: ../index.php?login=succes");
+					header("location: ../index.php?login=errorerro");
 					exit();
 				}
 

@@ -35,7 +35,8 @@ session_start();
 		</div>
 	</div>		
 	<div id="id01" class="modal">
-		<form class="modal-content animate" action="/action_page.php">
+		<!--<form class="modal-content animate" action="/action_page.php">-->
+			<div class="modal-content animate">
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 				<img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -63,7 +64,8 @@ session_start();
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
 			
-		</form>
+		<!--</form>-->
+		</div>
 	</div>
 	<div id="id02" class="modal">
 		<form class="modal-content animate" action="/action_page.php">
