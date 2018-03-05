@@ -63,7 +63,9 @@ button:hover {
     height: 100%;
     margin-left: 0px;
 }
-
+.form{
+    color: white    
+}
 /* positionerar innehållet i dropdown containern */
 .dropdown {
     float:right;
@@ -78,7 +80,7 @@ button:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgba(125, 125, 125, 0.4);
     min-width: 108px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -87,7 +89,7 @@ button:hover {
 
 /* stil till länkarna i dropdown */
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 10px 16px;
     text-decoration: none;
     display: block;
