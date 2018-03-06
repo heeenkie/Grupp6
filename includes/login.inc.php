@@ -28,8 +28,9 @@ if(isset($_POST['submit'])){
 				}elseif ($hashedPwdCheck == true) {
 					//$_SESSION['u_email'] = $row['user_id'];
 					$_SESSION['foreign'] = $row['user_id'];
+					$id = $row['user_id'];
  					$_SESSION['u_email'] = $row['user_email'];
- 					$sql = "SELECT * FROM info";
+ 					$sql = "SELECT * FROM info WHERE info_foreign = '$id'";
  					$result = mysqli_query($conn, $sql);
  					$row = mysqli_fetch_assoc($result);
  					$_SESSION['i_about'] = $row['info_about_me'];
