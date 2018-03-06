@@ -20,7 +20,7 @@ session_start();
 		
 		<button class="home_btn"><a href="index.php">Hem</a></button>
 		<button class="connected_companies_btn"><a href="companies.php">Visa anslutna företag</a></button>
-		<button><a href="s_profile.php">Extra</a></button>
+		<button><a href="profile.php">Extra</a></button>
 			
 		
 		

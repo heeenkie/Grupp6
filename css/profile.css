@@ -1,0 +1,8 @@
+.input_personal_info{
+  width: 60%;
+}
+
+#input_about{
+  height: 300px;
+  word-break: break-word;
+}

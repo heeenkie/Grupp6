@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="person2">
-			<img src=image/avatar.png alt="avatar" class="avatars">
+			<img src=image/avatar2.png alt="avatar" class="avatars">
 			<h4>Britan Kilic</h4>
 			<p>Industriell Ekonomi</p>
 		</div>
