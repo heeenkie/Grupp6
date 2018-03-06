@@ -3,29 +3,25 @@
 
 ?>
 <link rel="stylesheet" type="text/css" href="css/s_profile.css">
-
+<form action="includes/submit_info.php" method="POST">
 <div class="input_container">
     <div class="input_personal_info">
-				
-	    <div class="input_info" contenteditable="true">
-    	<?php 
-    		echo $_SESSION['i_first'];
-    	?>
-        </div>
 		
-		<div class="input_info" contenteditable="true">
-    	<?php 
-    		echo $_SESSION['i_last'];
-    	?>
-        </div>			
+		<?php 
+    		$first = $_SESSION['i_first'];
+    		$last = $_SESSION['i_last'];
+    		$about = $_SESSION['i_about'];
+    	?>		
+	   <input type="text" name="first" value="<?= $first?>">
+	   <input type="text" name="last" value="<?= $last?>">
+	   <input type="text" name="about" value="<?= $about?>">  	  
 				
-    </div>
-    <div class="input_info" contenteditable="true">
-    	<?php 
-    		echo $_SESSION['i_about'];
-    	?>
-    </div>
+				
+    
+    <button type="submit" name="submit"> Submit </button>
 </div>
+</form>
+
 <?php
 
 	include_once 'footer.php';
