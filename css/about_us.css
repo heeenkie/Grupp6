@@ -1,0 +1,30 @@
+.stuff{
+    width: 100%;
+    text-align:center;
+
+}
+
+.about_us_container{
+    width: 60%;
+    padding-left: 19%;
+    padding-top: 50px;
+}
+
+.person1, .person2, .person3, .person4, .person5, .person6{  
+    width: 150px;
+    height: 150px;
+    padding: 100px;
+    padding-left: 150px;
+    float: left;  
+      
+}
+.person6{
+padding-bottom: 300px;
+
+}
+
+img.avatars{
+    width: 100%;
+    border-radius: 50%;
+}
+

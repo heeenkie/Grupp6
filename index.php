@@ -1,9 +1,12 @@
 <?php
 	include_once 'header.php';
 ?>
-
+<link rel="stylesheet" type="text/css" href="css/index.css">
 	<div>
-		<img class="img" src="image/startpic.jpg" width=100% hight=100% alt="hej">
+		<img class="img" src="image/startpic.jpg" alt="picture">
+	</div>
+	<div class="index_container">
+	
 	</div>
 <?php
 
