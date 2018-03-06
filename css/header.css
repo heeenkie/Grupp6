@@ -44,7 +44,6 @@ button a{
 /*stil till knapparna när man hovrar över dem*/
 button:hover { 
     background-color: rgb(220, 220, 220);
-    text-decoration: underline;
     border-radius: 5px;
 }
 
@@ -115,7 +114,7 @@ button:hover {
 .body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;

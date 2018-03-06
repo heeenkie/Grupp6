@@ -1,8 +1,24 @@
 .input_personal_info{
-  width: 60%;
+  width: 100%;
 }
 
 #input_about{
   height: 300px;
-  word-break: break-word;
+  width: 100%;
+}
+.input_container{
+padding-left: 30%;
+padding-top: 30px;
+width: 42%;
+padding-bottom: 100px;
+}
+.body_title{
+  text-align: center;
+}
+
+#save{
+  padding: 20px;
+}
+select:required:invalid{
+  color: gray; 
 }

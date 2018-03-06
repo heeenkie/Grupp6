@@ -4,14 +4,15 @@
 <link rel="stylesheet" type="text/css" href="css/about_us.css">
 
 <div class="mybody">
-	<div class="about_us_container">
-	<h3>
-	StudentHissen grundades 2018 och hade som mål att öppna portarna mellan studenter och företagen.
-	Idag är vi nordens största förmedlare mellan just studenter och företag.
-	Varje dag skickas det ca 10tusen exjobbs idéer via StudentHissen och vårt mål idag är att bli ännu större. <br>
-	</h3>
+	<div class="style_container">
+		<div class="about_us_container">
+			<h3>
+				StudentHissen grundades 2018 och hade som mål att öppna portarna mellan studenter och företagen.
+				Idag är vi nordens största förmedlare mellan just studenter och företag.
+				Varje dag skickas det ca 10tusen exjobbs idéer via StudentHissen och vårt mål idag är att bli ännu större. <br>
+			</h3>
+		</div>
 	</div>
-
 	<div class="stuff">
 		<div class="person1">
 			<img src="image/avatar.png" alt="avatar" class="avatars">
