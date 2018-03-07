@@ -1,6 +1,6 @@
 <?php
 	include_once 'header.php';
-
+	include_once 'includes/dbh.inc.php';
 ?>
 <link rel="stylesheet" type="text/css" href="css/profile.css">
 
@@ -13,17 +13,15 @@
 		
 		
 			<?php 
-				$first = $_SESSION['i_first'];
-				$last = $_SESSION['i_last'];
-				$phone = $_SESSION['i_phone'];
-				$edu = $_SESSION['i_edu'];
-				$sex = $_SESSION['i_sex'];
-				$about = $_SESSION['i_about'];
-				$picture = $_SESSION['i_picture'];
-				
+				$id = $_SESSION['u_id'];
+				$sql = "SELECT * FROM info WHERE info_foreign = '$id'";
+				$result = mysqli_query($conn, $sql);
+
+				$row = mysqli_fetch_assoc($result);
+
 			?>
 			<div>
-			<img src="<?= $picture?>">		
+			<img src=<?php echo $row['info_picture'] ?>>		
 			</div>
 			<form action="upload.php" method="post" enctype="multipart/form-data">
     		Select image to upload:
@@ -32,22 +30,22 @@
 			</form>
 			<form action="includes/submit_info.php" method="POST">
 			<label>Förnamn:</label>
-			<input id="input_first" type="text" name="first" value="<?= $first?>" placeholder="Ange förnamn">
+			<input id="input_first" type="text" name="first" value=<?php echo $row['info_first_name'] ?> placeholder="Ange förnamn">
 			<label>Efternamn:</label>
-			<input id="input_last" type="text" name="last" value="<?= $last?>" placeholder="Ange Efternamn">
+			<input id="input_last" type="text" name="last" value=<?php echo $row['info_last_name'] ?> placeholder="Ange Efternamn">
 			<label>Telefon:</label>
-			<input id="input_number" type="text" name="phone" value="<?= $phone?>" placeholder="Ange Telefonnummer">
+			<input id="input_number" type="text" name="phone" value=<?php echo $row['info_phone'] ?> placeholder="Ange Telefonnummer">
 			<label>Utbildning:</label>
-			<select required id="input_education" type="text" name="edu" value="<?= $edu?>">
-				<option value="<?= $edu?>" ><?php echo$edu?></option>
+			<select required id="input_education" type="text" name="edu">
+				<option value=<?php echo $row['info_edu'] ?>> </option>
 				<option value="Datateknik">Datateknik</option>
 				<option value="Industriell Ekonomi">Industriell Ekonomi</option>
 				<option value="Teknisk Design">Teknisk Design</option>
 				<option value="Elektroteknik">Elektroteknik</option>
 			</select>
 			<label>Kön:</label>
-			<select required id="input_sex" type="text" name="sex" value="<?= $sex?>">
-				<option value="<?= $sex?>"><?php echo $sex?></option>  
+			<select required id="input_sex" type="text" name="sex">
+				<option value=<?php echo $row['info_sex'] ?>></option>  
 				<option value="Kvinna">Kvinna</option>
   				<option value="Man">Man</option>
   				<option value="Annat">Annat</option>
@@ -55,7 +53,7 @@
 			</select>
 			<label>Personligt brev:</label>
 			<!--<form action="/action_page.php">-->
-  			<textarea maxlength="200" id="input_about" type="text" name="about" value="<?= $about?>" placeholder="Skriv ett kort personligt brev som du vill att företagen ska se när du skickar in din idé. (max 200 tecken)" required><?php  echo $about ?></textarea>
+  			<textarea maxlength="200" id="input_about" type="text" name="about" value="<?= $about?>" placeholder="Skriv ett kort personligt brev som du vill att företagen ska se när du skickar in din idé. (max 200 tecken)" required><?php  echo $row['info_about_me'] ?></textarea>
 			  <button id="save"  name="submit" onclick="document.getElementById('id01').style.display='block'"> Spara </button>			
 		
 					
@@ -68,7 +66,7 @@
 			<?php 
 				$mail = $_SESSION['u_email'];
 				$birth = $_SESSION['i_birth'];
-				$pwd = $_SESSION['pwd'];
+				$pwd = $_SESSION['pwd']; //inge pk lösen!
 			
 			?>		
 			
