@@ -56,7 +56,8 @@
 			<label>Personligt brev:</label>
 			<!--<form action="/action_page.php">-->
   			<textarea maxlength="200" id="input_about" type="text" name="about" value="<?= $about?>" placeholder="Skriv ett kort personligt brev som du vill att företagen ska se när du skickar in din idé. (max 200 tecken)" required><?php  echo $about ?></textarea>
-					
+			  <button id="save"  name="submit" onclick="document.getElementById('id01').style.display='block'"> Spara </button>			
+		
 					
 		</div>
 		<div class="body_title">
