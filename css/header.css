@@ -19,9 +19,11 @@
 
 
 }
-.logo{
+img.logo{
     top: 50%;
     color: rgb(134, 134, 134);
+    width: 100px;
+    height: 40px;
 }
 
 
@@ -239,7 +241,7 @@ span.signup{
     }
 }
 @media only screen and (max-width: 800px) { 
-    .logo { 
+    .logo_div { 
       display: none; 
     } 
   }

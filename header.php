@@ -14,7 +14,7 @@ session_start();
 		
 	
 		<div class="logo_div">
-			<p class="logo"> StudentHissen </p>		
+			<img src="image/logo.png" class="logo" alt="logo">		
 		</div>
 
 		
