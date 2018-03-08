@@ -27,11 +27,18 @@ session_start();
 		<button class="about_us_btn"><a href="about_us.php">Om oss</a></button>
 	
 		<div class="dropdown">
-			<button class="drop-btn">Mina sidor</button>
-			<div class="dropdown-content">
-				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Logga in student</button>
-				<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Logga in företag</button>
-			</div>
+			<?php
+			if(isset($_SESSION['u_id'])){
+				echo "hejhoppsnopp";
+			}
+			else{
+				echo '<button class="drop-btn">Mina sidor</button>';
+				echo '<div class="dropdown-content">';
+				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Logga in student</button>';
+				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga in företag</button>';
+				echo '</div>';
+			}
+			?>
 		</div>
 	</div>		
 	<div id="id01" class="modal">

@@ -26,22 +26,9 @@ if(isset($_POST['submit'])){
 					header("location: ../index.php?login=pwderror");
 					exit();
 				}elseif ($hashedPwdCheck == true) {
-					$_SESSION['pwd'] = $pwd;
-					//$_SESSION['u_email'] = $row['user_id'];
-					$_SESSION['foreign'] = $row['user_id'];
-					$id = $row['user_id'];
- 					$_SESSION['u_email'] = $row['user_email'];
- 					$sql = "SELECT * FROM info WHERE info_foreign = '$id'";
- 					$result = mysqli_query($conn, $sql);
- 					$row = mysqli_fetch_assoc($result);
- 					$_SESSION['i_about'] = $row['info_about_me'];
-					$_SESSION['i_first'] = $row['info_first_name'];
-					$_SESSION['i_last'] = $row['info_last_name'];
-					$_SESSION['i_edu'] = $row['info_edu'];
-					$_SESSION['i_sex'] = $row['info_sex'];
-					$_SESSION['i_picture'] = $row['info_picture'];
-					$_SESSION['i_birth'] = $row['info_birth'];
-					$_SESSION['i_phone'] = $row['info_phone'];
+					$_SESSION['u_id'] = $row['user_id'];
+
+
 					header("location: ../profile.php");
 
 					exit();
