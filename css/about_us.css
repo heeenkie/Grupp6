@@ -13,6 +13,7 @@
     padding: 20px;
     /*border: solid gray;*/
     box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.281);
+    border-radius: 50%;
 }
 
 .person1, .person2, .person3, .person4, .person5, .person6{  

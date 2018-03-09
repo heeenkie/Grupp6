@@ -20,15 +20,18 @@ img.img{
     height: 30%;
     font-size: 2vw;
     text-align: center;
+    color:orangered;
 }
 #inspo_text{
     font-size: 2vW;
+    color:orangered;
 }
 
 .index_container {
     position: relative;
     height: 300px;
     text-align:center;
+    padding-top:30px;
 }
 
 .pic {
@@ -95,9 +98,11 @@ img.img1{
     height: 30%;
     font-size: 15px;
     text-align: center;
+    color: white;
 }
 #inspo_text1{
     font-size: 15px;
+    color: white;
 }
 
 .index_container1 {

@@ -40,7 +40,6 @@ if(isset($_POST['submit'])){
 			$sql = "UPDATE info SET info_about_me = '$about', info_first_name = '$first', info_last_name = '$last', info_picture = 'gaypics/$picname',info_sex = '$sex', info_edu = '$edu', info_phone = '$phone', info_birth = '$birth' WHERE info_foreign = '$id'";
 			mysqli_query($conn, $sql);
 
-
 			//header("Location: ../profile.php?update=success");
 			exit();
 		}
