@@ -29,10 +29,15 @@ session_start();
 		<div class="dropdown">
 			<?php
 			if(isset($_SESSION['u_id'])){
-				echo "hejhoppsnopp";
-			}
-			else{
 				echo '<button class="drop-btn">Mina sidor</button>';
+				echo '<div class="dropdown-content">';
+				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Mina sidor</button>';
+				echo '<form action="includes/logout.php">';
+				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga ut</button>';
+				echo '</form>';
+				echo '</div>';			}
+			else{
+				echo '<button class="drop-btn">Logga in</button>';
 				echo '<div class="dropdown-content">';
 				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Logga in student</button>';
 				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga in företag</button>';

@@ -23,18 +23,19 @@
 			<div>
 			<img src=<?php echo $row['info_picture'] ?>>		
 			</div>
-			<form action="upload.php" method="post" enctype="multipart/form-data">
+			<form action="includes/upload.php" method="post" enctype="multipart/form-data">
     		Select image to upload:
    			<input type="file" name="fileToUpload" id="fileToUpload">
     		<input type="submit" value="Upload Image" name="submit">
 			</form>
 			<form action="includes/submit_info.php" method="POST">
 			<label>Förnamn:</label>
-			<input id="input_first" type="text" name="first" value=<?php echo $row['info_first_name'] ?> placeholder="Ange förnamn">
+			<input id="input_first" type="text" name="first" value="<?php echo $row['info_first_name'] ?>" placeholder="Ange förnamn">
 			<label>Efternamn:</label>
-			<input id="input_last" type="text" name="last" value=<?php echo $row['info_last_name'] ?> placeholder="Ange Efternamn">
+			<input id="input_last" type="text" name="last" value="<?php echo $row['info_last_name'] ?>" placeholder="Ange Efternamn">
 			<label>Telefon:</label>
-			<input id="input_number" type="text" name="phone" value=<?php echo $row['info_phone'] ?> placeholder="Ange Telefonnummer">
+			<input id="input_number" type="text" name="phone" value="<?php echo $row['info_phone'] ?>" placeholder="Ange Telefonnummer">
+			<input id="input_personal_number" type="text" name="birth" value="<?php echo $row['info_birth'] ?>" placeholder="personnummer">
 			<label>Utbildning:</label>
 			<select required id="input_education" type="text" name="edu">
 				<option value=<?php echo $row['info_edu'] ?>> </option>
@@ -45,7 +46,7 @@
 			</select>
 			<label>Kön:</label>
 			<select required id="input_sex" type="text" name="sex">
-				<option value=<?php echo $row['info_sex'] ?>></option>  
+				<option value="<?php echo $row['info_sex'] ?>"></option>  
 				<option value="Kvinna">Kvinna</option>
   				<option value="Man">Man</option>
   				<option value="Annat">Annat</option>
@@ -54,8 +55,8 @@
 			<label>Personligt brev:</label>
 			<!--<form action="/action_page.php">-->
   			<textarea maxlength="200" id="input_about" type="text" name="about" value="<?= $about?>" placeholder="Skriv ett kort personligt brev som du vill att företagen ska se när du skickar in din idé. (max 200 tecken)" required><?php  echo $row['info_about_me'] ?></textarea>
-			  <button id="save"  name="submit" onclick="document.getElementById('id01').style.display='block'"> Spara </button>			
-		
+			  <button id="save"  name="submit" onclick="document.getElementById('id01').style.display"> Spara </button>			
+		</form>
 					
 		</div>
 		<div class="body_title">
@@ -64,20 +65,22 @@
 		<div class="input_personal_info">
 			
 			<?php 
-				$mail = $_SESSION['u_email'];
-				$birth = $_SESSION['i_birth'];
-				$pwd = $_SESSION['pwd']; //inge pk lösen!
+				$id = $_SESSION['u_id'];
+				$sql = "SELECT * FROM users WHERE user_id = '$id'";
+				$result = mysqli_query($conn, $sql);
+
+				$row = mysqli_fetch_assoc($result);
+
+			?>
 			
-			?>		
-			
-			<input id="input_mail" type="text" name="mail" value="<?= $mail?>" placeholder="Ange Mail"> 
-			<input id="input_personal_number" type="text" name="birth" value="<?= $birth?>" placeholder="personnummer">
-			<input id="input_psw" type="password" name="pwd" value="<?= $pwd?>" placeholder="Ange Lösenord">
+			<input id="input_mail" type="text" name="mail" value=<?php echo $row['user_email'] ?> placeholder="Ange Mail"> 
+
+			<input id="input_psw" type="password" name="pwd" value=<?php echo $row['user_password'] ?> placeholder="Ange Lösenord">
 
 			<button id="save"  name="submit" onclick="document.getElementById('id01').style.display='block'"> Spara </button>			
 		</div>
 	</div>	
-</form>
+
 
 
 <?php
