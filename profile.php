@@ -70,7 +70,7 @@
 			
 			?>		
 			
-			<input id="input_mail" type="text" name="mail" value="<?= $mail?>" placeholder="Ange Mail"> 
+			<input id="input_mail" type="text" name="mail" value="<?= $mail?>" placeholder="Ange  Mail">
 			<input id="input_personal_number" type="text" name="birth" value="<?= $birth?>" placeholder="personnummer">
 			<input id="input_psw" type="password" name="pwd" value="<?= $pwd?>" placeholder="Ange Lösenord">
 

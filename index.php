@@ -3,7 +3,7 @@
 ?>
 <link rel="stylesheet" type="text/css" href="css/index.css">
 	<div class="img_container">
-		<img class="img" src="image/start.png" alt="picture">
+		<img class="img" src="image/test.jpeg" alt="picture">
 		<div class="inspo_text">
 			<div id="inspo_text">
 				<h1>Pitcha din idé idag! </h1>

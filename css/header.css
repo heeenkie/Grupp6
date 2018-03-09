@@ -1,9 +1,11 @@
 /*stil till sidans övre del*/
 .topBar {
+    position: relative;
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 50px;  
     border-radius: 5px; 
+    z-index: 1;
 }
 
 /*stil till Studenthissen*/
