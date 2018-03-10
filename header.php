@@ -20,7 +20,7 @@ session_start();
 		
 		<button class="home_btn"><a href="index.php">Hem</a></button>
 		<button class="connected_companies_btn"><a href="companies.php">Visa anslutna företag</a></button>
-		<button><a href="profile.php">Extra</a></button>
+		<button><a href="apply.php">Extra</a></button>
 			
 		
 		
@@ -31,7 +31,7 @@ session_start();
 			if(isset($_SESSION['u_id'])){
 				echo '<button class="drop-btn">Mina sidor</button>';
 				echo '<div class="dropdown-content">';
-				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Mina sidor</button>';
+				echo '<a href="profile.php"><button>Mina sidor</button></a>';
 				echo '<form action="includes/logout.php">';
 				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga ut</button>';
 				echo '</form>';
