@@ -73,15 +73,9 @@
 
 			?>
 			
-<<<<<<< HEAD
 			<input id="input_mail" type="text" name="mail" value=<?php echo $row['user_email'] ?> placeholder="Ange Mail"> 
 
 			<input id="input_psw" type="password" name="pwd" value=<?php echo $row['user_password'] ?> placeholder="Ange Lösenord">
-=======
-			<input id="input_mail" type="text" name="mail" value="<?= $mail?>" placeholder="Ange  Mail">
-			<input id="input_personal_number" type="text" name="birth" value="<?= $birth?>" placeholder="personnummer">
-			<input id="input_psw" type="password" name="pwd" value="<?= $pwd?>" placeholder="Ange Lösenord">
->>>>>>> 5a532e0b8764b5a77b33b45d88c8dbfc096ef920
 
 			<button id="save"  name="submit" onclick="document.getElementById('id01').style.display='block'"> Spara </button>			
 		</div>

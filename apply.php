@@ -8,7 +8,7 @@
     <div>
     <input id="input_name" type="text" name="name" placeholder="Ange  Företagsnamn">
     <input id="input_mail" type="text" name="mail" placeholder="Ange  Mail">
-    <input id="input_mail" type="text" name="mail" placeholder="Ange  Organisationsnummer">
+    <input id="input_orgNum" type="text" name="orgNum" placeholder="Ange  Organisationsnummer">
     <input id="input_mail" type="text" name="mail" placeholder="Ange  Mail">
     <input id="input_mail" type="text" name="mail" placeholder="Ange  Mail">
     <input id="input_mail" type="text" name="mail" placeholder="Ange  Mail">
