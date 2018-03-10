@@ -21,7 +21,7 @@
 
 			?>
 			<div>
-			<img src=<?php echo $row['info_picture'] ?>>		
+			<img style="width:300px; height:auto;" src=<?php echo $row['info_picture'] ?>>		
 			</div>
 			<form action="includes/upload.php" method="post" enctype="multipart/form-data">
     		Select image to upload:
