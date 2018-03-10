@@ -2,22 +2,14 @@
 	include_once 'header.php';
 ?>
 <link rel="stylesheet" type="text/css" href="css/index.css">
-	<div class="img_container">
-<<<<<<< HEAD
-		<img class="img" src="image/test1.jpg" alt="picture">
-=======
-		<img class="img" src="image/test.jpeg" alt="picture">
->>>>>>> 5a532e0b8764b5a77b33b45d88c8dbfc096ef920
-		<div class="inspo_text">
-			<div id="inspo_text">
-				<h1>Pitcha din idé idag! </h1>
-			</div>
-			<div id="inspo_text1">
-				<h3>Att pitcha en idé som student har aldrig varit så enkelt som idag </h3>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<div id="front_image"></div>
+<div class="hero_text">
+	<h1> Pitcha din idé för tusentals företag!</h1>
+	<p> Nu kan du helt gratis pitcha din exjobbs idé för intressanta företag på ett smidigt sätt.<p>
+	<button class="yes"><a href="companies.php">Börja pitcha!</a></button>
+</div>
 
-			</div>
-		</div>
-	</div>
 
 	<div class="index_container">
 		<div class="pic">
@@ -33,35 +25,11 @@
 			<h2>Dina idéer är trygga hos oss!</h2>
 		</div>
 
-	</div>
-	<div class="img_container1">
-		<img class="img1" src="image/start.png" alt="picture">
-		<div class="inspo_text1">
-			<div id="inspo_text1">
-				<h1>Pitcha din idé idag! </h1>
-			</div>
-			<div id="inspo_text2">
-				<h3>Att pitcha en idé som student har aldrig varit så enkelt som idag </h3>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$("#front_image").addClass("load");
+</script>
 
-			</div>
-		</div>
-	</div>
-
-	<div class="index_container1">
-		<div class="pic1">
-			<img id="img-left1" src="image/img-left.jpg" alt="image">
-			<h2> Ett hel värld fylld av idéer!</h2>
-		</div>
-		<div class="pic1">
-			<img id="img-middle1" src="image/img-middle.png" alt="image">
-			<h2> 100% gratis för alla Studenter</h2>
-		</div>
-		<div class="pic1">
-			<img id="img-right1" src="image/img-right.png" alt="image">
-			<h2>Dina idéer är trygga hos oss!</h2>
-		</div>
-
-	</div>
 <?php
 
 	include_once 'footer.php';

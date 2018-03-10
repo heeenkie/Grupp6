@@ -1,31 +1,57 @@
-body{
-    padding-bottom:0;
+body, html {
+    height: 100%;
     margin: 0;
 }
-.img_container{
-    position: relative;
+#front_image {
+    /* The image used */
+    background-image: url("../image/test1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
-img.img{
-    height: auto;
-    width: 100%;
-
+#front_image.load {
+    opacity: 1;
 }
 
 
-.inspo_text{
-    position: absolute;
-    left: 2px;
-    top:45%;
-    width: 40%;
-    height: 30%;
-    font-size: 2vw;
+.hero_text {
     text-align: center;
-    color:orangered;
-}
-#inspo_text{
-    font-size: 2vW;
-    color:orangered;
-}
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+    font-size: 30px;
+    -webkit-text-stroke: 0.1px black;
+  }
+ 
+  .hero_text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .hero_text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+
 
 .index_container {
     position: relative;
@@ -78,83 +104,3 @@ img.img{
 
 
 
-
-
-.img_container1{
-    position: relative;
-}
-img.img1{
-    height: auto;
-    width: 640px;
-
-}
-
-
-.inspo_text1{
-    position: absolute;
-    left: 2px;
-    top:45%;
-    width: 40%;
-    height: 30%;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-}
-#inspo_text1{
-    font-size: 15px;
-    color: white;
-}
-
-.index_container1 {
-    position: relative;
-    height: 30%;
-    text-align:center;
-}
-
-.pic1 {
-    position: relative;
-    float: left;
-    width: 210px;
-    padding-bottom:10%;
-    height: 300px;
-    font-size: 10px;
-
-}
-
-#img-left1{
-    display: block;
-    width: 66%;
-    border-radius: 40%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#img-middle1{
-
-    display: block;
-    width: 39%;
-    margin-left: auto;
-    margin-right: auto;}
-#img-right1{
-
-    display: block;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (max-width: 649px) { 
-    .img_container { 
-      display: none; 
-    } 
-    .index_container{ 
-        display: none; 
-    } 
-  }
-@media only screen and (min-width: 651px) { 
-    .img_container1 { 
-      display: none; 
-    } 
-    .index_container1{ 
-        display: none; 
-    } 
-  }

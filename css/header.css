@@ -1,22 +1,19 @@
 /*stil till sidans övre del*/
 .topBar {
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.774);
     width: 100%;
     height: 50px;  
     border-radius: 5px; 
-<<<<<<< HEAD
-    position: absolute;
-=======
-    z-index: 1;
->>>>>>> 5a532e0b8764b5a77b33b45d88c8dbfc096ef920
+    position: fixed;
+    z-index:1;
 }
 
 /*stil till Studenthissen*/
 .logo_div{
     position: absolute;
     left: 43%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     font-family: verdana;
     z-index:1;
     width: 120px;
@@ -27,7 +24,6 @@
 }
 img.logo{
     top: 50%;
-    color: rgb(134, 134, 134);
     width: 100px;
     height: 40px;
 }
@@ -35,23 +31,22 @@ img.logo{
 
 /*stil till knapparna*/
 button{
-    color: rgb(138, 138, 138);
+    color: orange;
     border: none;
     height: 100%;
     text-align: center;
     font-size: 16px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 /*stil till texten i knapparna*/
 button a{
-    color: rgb(139, 139, 139);
-    text-decoration: none;
+color: orange;    text-decoration: none;
 }
 
 /*stil till knapparna när man hovrar över dem*/
 button:hover { 
-    background-color: rgb(220, 220, 220);
+    background-color: rgba(220, 220, 220, 0.500);
     border-radius: 5px;
 }
 

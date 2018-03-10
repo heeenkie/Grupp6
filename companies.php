@@ -3,6 +3,7 @@
 ?>
 <link rel="stylesheet" type="text/css" href="css/companies.css">
 
+<div class="container">
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Sök på företag..">
 <input type="text" id="myInput1" onkeyup="myFunction_11()" placeholder="Sök på stad..">
 
@@ -28,6 +29,7 @@
     <td>Sundsvall</td>
   </tr>
 </table>
+</div>
 
 
 <?php
