@@ -35,7 +35,8 @@ session_start();
 				echo '<form action="includes/logout.php">';
 				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga ut</button>';
 				echo '</form>';
-				echo '</div>';			}
+				echo '</div>';			
+			}
 			else{
 				echo '<button class="drop-btn">Logga in</button>';
 				echo '<div class="dropdown-content">';
