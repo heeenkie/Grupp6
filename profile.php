@@ -38,7 +38,7 @@
 			<input id="input_personal_number" type="text" name="birth" value="<?php echo $row['info_birth'] ?>" placeholder="personnummer">
 			<label>Utbildning:</label>
 			<select required id="input_education" type="text" name="edu">
-				<option value=<?php echo $row['info_edu'] ?>> </option>
+				<option value=<?php echo $row['info_edu'] ?>> <?php echo $row['info_edu'] ?></option>
 				<option value="Datateknik">Datateknik</option>
 				<option value="Industriell Ekonomi">Industriell Ekonomi</option>
 				<option value="Teknisk Design">Teknisk Design</option>
@@ -46,7 +46,7 @@
 			</select>
 			<label>Kön:</label>
 			<select required id="input_sex" type="text" name="sex">
-				<option value="<?php echo $row['info_sex'] ?>"></option>  
+				<option value="<?php echo $row['info_sex'] ?>"><?php echo $row['info_sex'] ?></option>  
 				<option value="Kvinna">Kvinna</option>
   				<option value="Man">Man</option>
   				<option value="Annat">Annat</option>
