@@ -40,8 +40,8 @@ session_start();
 			else{
 				echo '<button class="drop-btn">Logga in</button>';
 				echo '<div class="dropdown-content">';
-				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Logga in student</button>';
-				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga in företag</button>';
+				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Student</button>';
+				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Företag</button>';
 				echo '</div>';
 			}
 			?>

@@ -1,11 +1,9 @@
 /*stil till sidans övre del*/
 .topBar {
-    position: relative;
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.774);
     width: 100%;
-    height: 50px;  
-    border-radius: 5px; 
-    position: fixed;
+    height: 50px;   
     z-index:1;
 }
 
@@ -16,6 +14,7 @@
     background-color: rgba(255, 255, 255, 0);
     font-family: verdana;
     z-index:1;
+    padding-top: 5px;
     width: 120px;
     height: 50px;
     text-align: center;
@@ -44,12 +43,6 @@ button a{
 color: orange;    text-decoration: none;
 }
 
-/*stil till knapparna när man hovrar över dem*/
-button:hover { 
-    background-color: rgba(220, 220, 220, 0.500);
-    border-radius: 5px;
-}
-
 .about_us_btn{
     float: right;
     margin-right: 5vw;
@@ -60,7 +53,7 @@ button:hover {
 }
 /* stil till dropbtn */
 .drop-btn {
-    background-color: rgba(125,125,125,0);
+    background-color: rgba(255, 255, 255, 0);
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -82,7 +75,7 @@ button:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(125, 125, 125, 0.4);
+    background-color: rgba(255, 255, 255, 0.774);
     min-width: 108px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -99,8 +92,7 @@ button:hover {
 
 /* stil när man hovrar över länkarna i dropdown knappen */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
-    border-radius: 5px;}
+}
 
 /* visar innehållet när man hovrar över knappen */
 .dropdown:hover .dropdown-content {
@@ -109,12 +101,12 @@ button:hover {
 
 /* stil till knappen när innehållet i dropdown knappen visas även om inte muspekaren är på just knappen*/
 .dropdown:hover .drop-btn {
-    background-color: #ddd;
-    border-radius: 5px;
+    color: gray;
 }
 
 
-.body {font-family: Arial, Helvetica, sans-serif;}
+
+
 
 /* Full-width input fields */
 input[type=text], input[type=password], select {
