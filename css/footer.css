@@ -1,0 +1,19 @@
+.contakt{
+    position: relative;
+    height: 300px;
+    background-color: gray;
+}
+
+.other{
+    position: relative;
+    height: 300px;
+    bordeR: solid black;
+}
+
+
+.title {
+    position: relative;
+    float: left;
+    width: 33%;
+    text-align: center;
+}

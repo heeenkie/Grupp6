@@ -1,6 +1,8 @@
 <?php
 	include_once 'header.php';
 ?>
+<link rel="stylesheet" type="text/css" href="css/apply.css">
+
 <div class="container">
     <div class="body_title">
 	<h>Ansök om att gå med som företag</h>

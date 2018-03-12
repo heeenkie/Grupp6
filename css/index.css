@@ -58,6 +58,7 @@ body, html {
     height: 300px;
     text-align:center;
     padding-top:30px;
+    border: solid black;
 }
 
 .pic {
