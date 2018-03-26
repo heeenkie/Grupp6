@@ -1,8 +1,11 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 <div class="contakt">
-</div>
     <h1> kontakta oss </h1>
+    <p>Dina önskemål och förslag är alltid välkomna!</p>
+    <a href="mailto:isac.arvidsson97@hotmail.com?" target="_top">Send Mail</a>
+</div>
+    
 
 
 <div class="other">

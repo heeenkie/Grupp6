@@ -1,6 +1,10 @@
 body{
     margin:0;
 }
+
+.mybody{
+    position: absolute;
+}
 .stuff{
     width: 100%;
     text-align:center;
