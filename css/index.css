@@ -3,23 +3,21 @@ body, html {
     margin: 0;
 }
 #front_image {
-    /* The image used */
     background-image: url("../image/test1.jpg");
-
-    /* Full height */
     height: 100%; 
 
-    /* Center and scale the image nicely */
+    /* centrerar, skalar och tonar in bakgrundsbild */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0;
+    opacity: 0.1;
     -webkit-transition: opacity 2s ease-in;
     -moz-transition: opacity 2s ease-in;
     -o-transition: opacity 2s ease-in;
     -ms-transition: opacity 2s ease-in;
     transition: opacity 2s ease-in;
 }
+
 #front_image.load {
     opacity: 1;
 }
@@ -31,7 +29,7 @@ body, html {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: orange;
+    color: darkorange;
     font-size: 30px;
     -webkit-text-stroke: 0.1px black;
   }
@@ -58,7 +56,6 @@ body, html {
     height: 300px;
     text-align:center;
     padding-top:30px;
-    border: solid black;
 }
 
 .pic {

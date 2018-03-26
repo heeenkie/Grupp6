@@ -30,7 +30,7 @@ session_start();
 			<?php
 			if(isset($_SESSION['u_id'])){
 				echo '<button class="drop-btn">Mina sidor</button>';
-				echo '<div class="dropdown-content">';
+				echo '<div class="dropdown-content" >';
 				echo '<a href="profile.php"><button>Mina sidor</button></a>';
 				echo '<form action="includes/logout.php">';
 				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga ut</button>';
@@ -40,8 +40,8 @@ session_start();
 			else{
 				echo '<button class="drop-btn">Logga in</button>';
 				echo '<div class="dropdown-content">';
-				echo '<button onclick=document.getElementById("id01").style.display="block" style="width:auto;">Student</button>';
-				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Företag</button>';
+				echo '<button onclick=document.getElementById("id01").style.display="block" class="btn">Student</button>';
+				echo '<button onclick=document.getElementById("id02").style.display="block" class="btn";">Företag</button>';
 				echo '</div>';
 			}
 			?>

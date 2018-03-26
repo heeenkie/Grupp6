@@ -31,7 +31,7 @@ img.logo{
 
 /*stil till knapparna*/
 button{
-    color: orange;
+    color: darkorange;
     border: none;
     height: 100%;
     text-align: center;
@@ -41,7 +41,12 @@ button{
 
 /*stil till texten i knapparna*/
 button a{
-color: orange;    text-decoration: none;
+color: darkorange;    
+text-decoration: none;
+}
+
+button a:hover{
+    color:grey;
 }
 
 .about_us_btn{
@@ -52,6 +57,7 @@ color: orange;    text-decoration: none;
     float: left;
     margin-left: 5vw;
 }
+
 /* stil till dropbtn */
 .drop-btn {
     background-color: rgba(255, 255, 255, 0);
@@ -69,7 +75,6 @@ color: orange;    text-decoration: none;
     display: inline-block;
     height: 100%;
     margin-left: 0px;
-    
 }
 
 /* dropdown innehåll (Hidden by Default) */
@@ -93,6 +98,7 @@ color: orange;    text-decoration: none;
 
 /* stil när man hovrar över länkarna i dropdown knappen */
 .dropdown-content a:hover {
+    color: grey;
 }
 
 /* visar innehållet när man hovrar över knappen */
@@ -105,9 +111,16 @@ color: orange;    text-decoration: none;
     color: gray;
 }
 
+.btn{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
 
-
-
+.btn:hover{
+    color:grey;
+    border-radius: 5px;
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password], select {
