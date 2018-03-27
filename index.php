@@ -13,16 +13,16 @@
 
 	<div class="index_container">
 		<div class="pic">
-			<img id="img-left" src="image/img-left.jpg" alt="image">
-			<h2> Ett hel värld fylld av idéer!</h2>
+			<img id="img-left" src="image/img-1.png" alt="image">
+			<h2> Registrera dig gratis!</h2>
 		</div>
 		<div class="pic">
-			<img id="img-middle" src="image/img-middle.png" alt="image">
-			<h2> 100% gratis för alla Studenter</h2>
+			<img id="img-middle" src="image/img-2.png" alt="image">
+			<h2> Hitta rätt företag för dig</h2>
 		</div>
 		<div class="pic">
-			<img id="img-right" src="image/img-right.png" alt="image">
-			<h2>Dina idéer är trygga hos oss!</h2>
+			<img id="img-right" src="image/img-3.png" alt="image">
+			<h2>Pitcha din idé!</h2>
 		</div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
