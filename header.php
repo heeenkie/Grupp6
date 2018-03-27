@@ -19,8 +19,10 @@ session_start();
 
 		
 		<button class="home_btn"><a href="index.php">Hem</a></button>
-		<button class="connected_companies_btn"><a href="companies.php">Visa anslutna företag</a></button>
-		<button><a href="apply.php">Extra</a></button>
+		<button id="connected_companies_btn" class="companies_btn"><a href="companies.php">Visa anslutna företag</a></button>
+		<button id="guide_btn"><a href="guide.php">Vad är en pitch?</a></button>
+		<button id="connected_companies_btn_short" class="companies_btn"><a href="companies.php">Företag</a></button>
+		<button id="guide_btn_short"><a href="guide.php">pitch?</a></button>
 			
 		
 		
@@ -99,6 +101,7 @@ session_start();
 
 			<div class="container" style="background-color:#f1f1f1">
 				<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Avbryt</button>
+				<span class="signup">Ansök om medlemsskap <a href="apply.php">här!</a></span>
 				<span class="psw">Glömt <a href="#">lösenord?</a></span>
 			</div>
 </div>

@@ -52,10 +52,15 @@ button a:hover{
 .about_us_btn{
     float: right;
     margin-right: 5vw;
+    border-left: 0.5px solid darkorange;
 }
 .home_btn{
     float: left;
     margin-left: 5vw;
+    border-right: 0.5px solid darkorange;
+}
+.companies_btn{
+    border-right: 0.5px solid darkorange;
 }
 
 /* stil till dropbtn */
@@ -242,13 +247,34 @@ span.psw {
        width: 100%;
     }
 }
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 600px) { 
     .logo_div { 
       display: none; 
     } 
   }
-  @media only screen and (max-width: 500px) { 
+  @media only screen and (max-width: 420px) { 
     .about_us_btn { 
+      display: none; 
+    } 
+  }
+
+  @media only screen and (max-width: 900px) { 
+    #guide_btn { 
+      display: none; 
+    } 
+  }
+  @media only screen and (max-width: 750px) { 
+    #connected_companies_btn { 
+      display: none; 
+    } 
+  }
+  @media only screen and (min-width: 750px) { 
+    #connected_companies_btn_short { 
+      display: none; 
+    } 
+  }
+  @media only screen and (min-width: 900px) { 
+    #guide_btn_short { 
       display: none; 
     } 
   }
