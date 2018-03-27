@@ -5,7 +5,12 @@
         <h1> kontakta oss </h1>
         <p>Dina önskemål och förslag är alltid välkomna!</p>
         <a href="mailto:isac.arvidsson97@hotmail.com?" target="_top">Send Mail</a>
-</div>
+    </div>
+    <div class="text_container2">
+            <h1> kontakta oss </h1>
+            <p>Dina önskemål och förslag är alltid välkomna!</p>
+            <a href="mailto:isac.arvidsson97@hotmail.com?" target="_top">Send Mail</a>
+    </div>
 </div>
     
 
