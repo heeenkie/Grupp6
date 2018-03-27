@@ -33,11 +33,11 @@ img.logo{
 button{
     color: darkorange;
     border: none;
-    height: 30px;
+    height: 100%;
     text-align: center;
     font-size: 17px;
     background-color: rgba(255, 255, 255, 0);
-    margin-top: 10px;
+    
 }
 
 /*stil till texten i knapparna*/
@@ -55,14 +55,21 @@ button a:hover{
     float: right;
     margin-right: 5vw;
     border-left: 0.5px solid darkorange;
+    margin-top: 10px;
+    height: 30px;
 }
 .home_btn{
     float: left;
     margin-left: 5vw;
     border-right: 0.5px solid darkorange;
+    margin-top: 10px;
+    height: 30px;
+
 }
 .companies_btn{
     border-right: 0.5px solid darkorange;
+    margin-top: 10px;
+    height: 30px;
 }
 
 /* stil till dropbtn */
@@ -73,6 +80,7 @@ button a:hover{
     cursor: pointer;
     height: 30px;
     margin-left: 0px;
+    margin-top: 10px;
 }
 
 /* positionerar innehållet i dropdown containern */
