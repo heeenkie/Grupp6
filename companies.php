@@ -1,7 +1,19 @@
 <?php
 	include_once 'header.php';
+  include_once 'includes/dbh.inc.php';
 ?>
 <link rel="stylesheet" type="text/css" href="css/companies.css">
+
+       <?php 
+  
+        $sql = "SELECT * FROM company_info";
+        $result = mysqli_query($conn, $sql);
+
+        //$row = mysqli_fetch_assoc($result);
+        
+       // $num_rows = mysqli_num_rows($result);
+    
+      ?> 
 
 <div class="container">
   <div id="input_div">
@@ -13,7 +25,15 @@
     <th style="width:40%;">Stad</th>
     <th style="display: none;">Utbildning</th>
   </tr>
-  <tr>
+<?php 
+ while($row = $result->fetch_assoc()) { 
+    echo '<tr>';
+      echo '<td>' .$row["company_info_name"].  '</td>';
+       echo '<td>' .$row["company_info_id"].  '</td>';
+    echo '</tr>';
+
+}?>
+  <!--<tr>
     <td>Statliga pensionsverket</td>
     <td>Sundsvall</td>
     <td style="display: none;">Datateknik</td>
@@ -32,7 +52,7 @@
     <td>SCA</td>
     <td>Sundsvall</td>
     <td style="display: none;">indek</td>
-  </tr>
+  </tr>-->
 </table>
 </div>
 
