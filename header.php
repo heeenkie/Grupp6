@@ -92,7 +92,7 @@ session_start();
 				<label for="psw"><b>Lösenord</b></label>
 				<input type="password" placeholder="Enter Password" name="psw" required>
 							
-				<button class="loginbtn" type="submit">Logga in</button>
+				<a href="profileCompany.php"><button class="loginbtn" type="submit">Logga in</button></a>
 				<label>
 				<input type="checkbox" checked="checked" name="remember"> Kom ihåg mig?</label>
 			</div>
