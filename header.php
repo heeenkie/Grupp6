@@ -42,8 +42,8 @@ session_start();
 			else{
 				echo '<button class="drop-btn">Logga in</button>';
 				echo '<div class="dropdown-content">';
-				echo '<button onclick=document.getElementById("id01").style.display="block" class="btn">Student</button>';
-				echo '<button onclick=document.getElementById("id02").style.display="block" class="btn";">Företag</button>';
+				echo '<button><a href="login_fail.php">Student</a></button>';
+				echo '<button><a href="login.php">Företag</a></button>';
 				echo '</div>';
 			}
 			?>
@@ -62,8 +62,7 @@ session_start();
 				<input type="text" placeholder="Enter E-mail" name="email" required>
 
 				<label for="pwd"><b>Lösenord</b></label>
-				<input type="password" placeholder="Enter Password" name="pwd" required>
-							
+				<input type="password" placeholder="Enter Password" name="pwd" required>			
 				<button class="loginbtn" type="submit" name="submit">Logga in</button>
 				</form>
 				<label>

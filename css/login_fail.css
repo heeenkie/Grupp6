@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+
+}
+.container{
+    margin-top: 5vw;
+    display: inline-block;
+    width: 40vw;
+    height: 40vw;
+    border: solid black;
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#login-btn{
+    background-color: darkorange;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 30px;
+}
+
+#login-btn:hover{
+    background-color:lightgray;
+    color: darkorange;
+}
+
+a{
+    font-size: 20px;
+    color: darkorange;
+    margin: 40px;
+}
+
+a:hover{
+    color: grey;
+}
+
+p{
+    font-size: 17px;
+    color: red;
+}
