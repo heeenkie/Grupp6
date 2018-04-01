@@ -3,19 +3,19 @@ body{
 
 }
 .container{
-    margin-top: 5vw;
+    margin-top: 3vw;
     display: inline-block;
-    width: 40vw;
-    height: 40vw;
+    width: 400px;
+    height: 400px;
     border: solid black;
     text-align: center;
 }
 
 input{
     width: 70%;
-    padding: 12px;
+    padding: 10px;
     font-size: 16px;
-    margin: 15px;
+    margin: 4px;
     border-radius: 10px;
 }
 
@@ -25,7 +25,7 @@ input{
     font-size: 20px;
     border-radius: 10px;
     width: 70%;
-    padding: 12px;
+    padding: 10px;
     margin-bottom: 30px;
 }
 

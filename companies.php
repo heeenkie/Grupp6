@@ -5,15 +5,15 @@
 <link rel="stylesheet" type="text/css" href="css/companies.css">
 
        <?php 
-  
+        /*
         $sql = "SELECT * FROM company_info";
         $result = mysqli_query($conn, $sql);
 
         //$row = mysqli_fetch_assoc($result);
         
        // $num_rows = mysqli_num_rows($result);
-    
-      ?> 
+    */
+      ?>
 
 <div class="container">
   <div id="input_div">
@@ -26,33 +26,69 @@
     <th style="display: none;">Utbildning</th>
   </tr>
 <?php 
+/*
  while($row = $result->fetch_assoc()) { 
     echo '<tr>';
       echo '<td>' .$row["company_info_name"].  '</td>';
        echo '<td>' .$row["company_info_id"].  '</td>';
     echo '</tr>';
 
-}?>
-  <!--<tr>
-    <td>Statliga pensionsverket</td>
-    <td>Sundsvall</td>
+}*/?>
+
+  <tr>
+    <td><a href="1.php">Adrians kebab</a></td>
+    <td><a href="1.php">Sundsvall</a></td>
+    <td style="display: none;">Industriell ekonomi</td>
+  </tr>
+  <tr>
+    <td><a href="2.php">Augusts nyhetsbyrå</a></td>
+    <td><a href="2.php">malmö</a></td>
     <td style="display: none;">Datateknik</td>
   </tr>
   <tr>
-    <td>Mitt Media</td>
-    <td>Sundsvall</td>
+    <td><a href="3.php">Britans casino</a></td>
+    <td><a href="3.php">Stockholm</a></td>
+    <td style="display: none;">Industriell ekonomi</td>
+  </tr>
+  <tr>
+    <td><a href="4.php">Isacs pappersbruk</a></td>
+    <td><a href="4.php">Katrineholm</a></td>
+    <td style="display: none;">Industriell ekonomi</td>
+  </tr>
+  <tr>
+    <td><a href="5.php">Andreas städservice AB</a></td>
+    <td><a href="5.php">Stockholm</a></td>
+    <td style="display: none;">Kemiteknik</td>
+  </tr>
+  <tr>
+    <td><a href="6.php">Victors Mobiler</a></td>
+    <td><a href="6.php">Sundsvall</a></td>
     <td style="display: none;">Datateknik</td>
   </tr>
   <tr>
-    <td>Swedbank</td>
-    <td>Stockholm</td>
-    <td style="display: none;">indek</td>
+    <td><a href="7.php">Marcus elektronik</a></td>
+    <td><a href="7.php">Sundsvall</a></td>
+    <td style="display: none;">Elektroteknik</td>
   </tr>
   <tr>
-    <td>SCA</td>
-    <td>Sundsvall</td>
-    <td style="display: none;">indek</td>
-  </tr>-->
+    <td><a href="8.php">StudentPitchen AB</a></td>
+    <td><a href="8.php">Sundsvall</a></td>
+    <td style="display: none;">Industriell ekonomi, Datateknik</td>
+  </tr>
+  <tr>
+    <td><a href="9.php">bord&stol AB</a></td>
+    <td><a href="9.php">Malmö</a></td>
+    <td style="display: none;">Teknisk design</td>
+  </tr>
+  <tr>
+    <td><a href="10.php">Yiglo</a></td>
+    <td><a href="10.php">Katrineholm</a></td>
+    <td style="display: none;">Elektroteknik</td>
+  </tr>  <tr>
+    <td><a href="11.php">Statens Högskolor</a></td>
+    <td><a href="11.php">Stockholm</a></td>
+    <td style="display: none;">Industriell Ekenomi, Datateknik, Elektroteknik, Tekniskdesign, Kemiteknik</td>
+  </tr>
 </table>
 </div>
 

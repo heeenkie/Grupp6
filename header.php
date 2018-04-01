@@ -14,7 +14,7 @@ session_start();
 		
 	
 		<div class="logo_div">
-			<img src="image/logo.png" class="logo" alt="logo">		
+			<a href="index.php"><img src="image/logo.png" class="logo" alt="logo"></a>		
 		</div>
 
 		
