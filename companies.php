@@ -21,9 +21,9 @@
 </div>
 <table id="myTable">
   <tr class="header">
-    <th style="width:60%;">Företag</th>
-    <th style="width:40%;">Stad</th>
-    <th style="display: none;">Utbildning</th>
+    <th style="width:40%;">Företag</th>
+    <th style="width:30%;">Stad</th>
+    <th style="width:30%">Utbildning</th>
   </tr>
 <?php 
 /*
@@ -38,12 +38,12 @@
   <tr>
     <td><a href="1.php">Adrians kebab</a></td>
     <td><a href="1.php">Sundsvall</a></td>
-    <td style="display: none;">Industriell ekonomi</td>
+    <td><a href="1.php">Industriell ekonomi</a></td>
   </tr>
   <tr>
     <td><a href="2.php">Augusts nyhetsbyrå</a></td>
     <td><a href="2.php">malmö</a></td>
-    <td style="display: none;">Datateknik</td>
+    <td><a href="2.php">Datateknik</a></td>
   </tr>
   <tr>
     <td><a href="3.php">Britans casino</a></td>
@@ -87,7 +87,7 @@
   </tr>  <tr>
     <td><a href="11.php">Statens Högskolor</a></td>
     <td><a href="11.php">Stockholm</a></td>
-    <td style="display: none;">Industriell Ekenomi, Datateknik, Elektroteknik, Tekniskdesign, Kemiteknik</td>
+    <td><a href="11.php">Industriell Ekenomi, Datateknik, Elektroteknik, Tekniskdesign, Kemiteknik</a></td>
   </tr>
 </table>
 </div>

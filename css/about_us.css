@@ -14,9 +14,8 @@ text-align: center;
 .about_us{
     width: 60%;
     padding: 40px;
-    border: solid lightgrey;
-    box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.281);
-    border-radius: 50%;
+    box-shadow: 0 10px 20px -5px grey;
+   
     display: inline-block;
 }
 
