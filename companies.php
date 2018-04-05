@@ -48,46 +48,46 @@
   <tr>
     <td><a href="3.php">Britans casino</a></td>
     <td><a href="3.php">Stockholm</a></td>
-    <td style="display: none;">Industriell ekonomi</td>
+    <td><a href="3.php">Industriell ekonomi</a></td>
   </tr>
   <tr>
     <td><a href="4.php">Isacs pappersbruk</a></td>
     <td><a href="4.php">Katrineholm</a></td>
-    <td style="display: none;">Industriell ekonomi</td>
+    <td><a href="4.php">Industriell ekonomi</a></td>
   </tr>
   <tr>
     <td><a href="5.php">Andreas städservice AB</a></td>
     <td><a href="5.php">Stockholm</a></td>
-    <td style="display: none;">Kemiteknik</td>
+    <td><a href="5.php">Kemiteknik</a></td>
   </tr>
   <tr>
     <td><a href="6.php">Victors Mobiler</a></td>
     <td><a href="6.php">Sundsvall</a></td>
-    <td style="display: none;">Datateknik</td>
+    <td><a href="6.php">Datateknik</a></td>
   </tr>
   <tr>
     <td><a href="7.php">Marcus elektronik</a></td>
     <td><a href="7.php">Sundsvall</a></td>
-    <td style="display: none;">Elektroteknik</td>
+    <td><a href="7.php">Elektroteknik</a></td>
   </tr>
   <tr>
     <td><a href="8.php">StudentPitchen AB</a></td>
     <td><a href="8.php">Sundsvall</a></td>
-    <td style="display: none;">Industriell ekonomi, Datateknik</td>
+    <td><a href="8.php">Industriell ekonomi, Datateknik</a></td>
   </tr>
   <tr>
     <td><a href="9.php">bord&stol AB</a></td>
     <td><a href="9.php">Malmö</a></td>
-    <td style="display: none;">Teknisk design</td>
+    <td><a href="9.php">Teknisk Design</a></td>
   </tr>
   <tr>
     <td><a href="10.php">Yiglo</a></td>
     <td><a href="10.php">Katrineholm</a></td>
-    <td style="display: none;">Elektroteknik</td>
+    <td><a href="10.php">Elektroteknik</a></td>
   </tr>  <tr>
     <td><a href="11.php">Statens Högskolor</a></td>
     <td><a href="11.php">Stockholm</a></td>
-    <td><a href="11.php">Industriell Ekenomi, Datateknik, Elektroteknik, Tekniskdesign, Kemiteknik</a></td>
+    <td><a href="11.php">Industriell Ekenomi, Datateknik, Elektroteknik och flera...</a><a style="display:none;">Tekniskdesign, Kemiteknik</a></td>
   </tr>
 </table>
 </div>

@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="css/1.css">
 <div class="cont">
     <div class="img">
+        <img src="image/kebab.jpg" alt="kebab" width="100%" height="100%">
     </div>
 	<div clss="field">
         <div id="tf">
