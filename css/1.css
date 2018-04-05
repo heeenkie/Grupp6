@@ -15,46 +15,59 @@ body{
     display: inline-block;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/font1.ttf);
+    font-weight: bold;
+}
+
 .name{
     width:100%;
     text-align: center;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-family: myFirstFont;
 }
 
 .field{
     min-width: 950px;
     height: 400px;
     text-align: center;
-
 }
-#ex{
+
+#apply{
     float: left;
-    width: 150px;
+    width: 20%;
     height: 300px;
     text-align: center;
-    margin: 30px;
     border: solid black;
+    box-shadow: 0 15px 30px -5px grey;
+    margin: 2%;
+    background: darkorange;
 
+}
+#apply h1{
+    padding-top: 100px;
+    color: black;
+    text-decoration: underline;
 }
 
 #tf{
-    display: inline-block;
+    float: left;
     border: solid black;
     height: 300px;
-    width: 500px;
-    margin-top: 50px;
+    width: 47%;
+    margin: 2%;
 
 }
 #edu{
-    float: right;
-    width: 150px;
+    margin: 2%;
+    float: left;
+    width: 20%;
     height: 300px;
-    text-align: center;
-    margin: 30px;
     border: solid black;
     box-shadow: 0 15px 30px -5px grey;
 }
+
 #extra{
     margin:10px;
     text-align: center;

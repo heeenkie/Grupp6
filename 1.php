@@ -11,25 +11,28 @@
     Adrians Kebab
 </div>
 
-<div class="field">
-    <div id="ex">
-        <h1>Ansök här</h1>
-    </div>
+ <div class="field">
+
+    <a href="bajs.php"><div id="apply">
+        <h1>Pitcha här</h1>
+    </div></a>
+
     <div id="tf">
         <h1>
             Om företaget
         </h1>
         <p>
-
-
         </p>
     </div>
+
     <div id="edu">
-        <h2>Intressanta utbildningar</h2>
+        <h2>Intressanta Utbildningar</h2>
         <p>
             Industriell ekonomi
         </p>
+       
     </div>
+
 </div>
 <div class="field" style="height: 300px;">
     <div class="job">
