@@ -3,20 +3,20 @@ body{
 }
 .img_container{
     width: 100%;
-    height: 201px;
+    max-height: 201px;
     text-align: center;
     margin-top: 100px;
 }
 
 .img{
     position: relative;
-    width: auto;
-    height: 200px;
+    width: 300px;
+    max-height: 200px;
     display: inline-block;
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: nameStyle;
     src: url(../fonts/font1.ttf);
     font-weight: bold;
 }
@@ -25,7 +25,7 @@ body{
     width:100%;
     text-align: center;
     font-size: 60px;
-    font-family: myFirstFont;
+    font-family: nameStyle;
 }
 
 .field{
@@ -39,7 +39,6 @@ body{
     width: 20%;
     height: 300px;
     text-align: center;
-    border: solid black;
     box-shadow: 0 15px 30px -5px grey;
     margin: 2%;
     background: darkorange;
@@ -53,7 +52,6 @@ body{
 
 #tf{
     float: left;
-    border: solid black;
     height: 300px;
     width: 47%;
     margin: 2%;
@@ -64,7 +62,6 @@ body{
     float: left;
     width: 20%;
     height: 300px;
-    border: solid black;
     box-shadow: 0 15px 30px -5px grey;
 }
 
@@ -78,6 +75,5 @@ body{
     display: inline-block;
     width: 400px;
     height: 200px;
-    border: solid black;
     margin: 30px;
 }
