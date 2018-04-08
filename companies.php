@@ -85,8 +85,8 @@
     <td><a href="10.php">Katrineholm</a></td>
     <td><a href="10.php">Elektroteknik</a></td>
   </tr>  <tr>
-    <td><a href="11.php">Statens Högskolor</a></td>
-    <td><a href="11.php">Stockholm</a></td>
+    <td><a href="11.php">Mittuniversitetet</a></td>
+    <td><a href="11.php">Sundsvall, Östersund</a></td>
     <td><a href="11.php">Industriell Ekenomi, Datateknik, Elektroteknik och flera...</a><a style="display:none;">Tekniskdesign, Kemiteknik</a></td>
   </tr>
 </table>
