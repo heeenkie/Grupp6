@@ -42,8 +42,8 @@ session_start();
 			else{
 				echo '<button class="drop-btn">Logga in</button>';
 				echo '<div class="dropdown-content">';
-				echo '<button><a href="login_fail.php">Student</a></button>';
-				echo '<button><a href="login.php">Företag</a></button>';
+				echo '<button><a href="login.php">Student</a></button>';
+				echo '<button><a href="login_company.php">Företag</a></button>';
 				echo '</div>';
 			}
 			?>

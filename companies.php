@@ -36,9 +36,10 @@
 }*/?>
 
   <tr>
-    <td><a href="1.php">Adrians kebab</a></td>
-    <td><a href="1.php">Sundsvall</a></td>
-    <td><a href="1.php">Industriell ekonomi</a></td>
+
+    <td><a href="profileCompany.public.php">Adrians kebab</a></td>
+    <td><a href="profileCompany.public.php">Sundsvall</a></td>
+    <td><a href="profileCompany.public.php">Industriell ekonomi</a></td>
   </tr>
   <tr>
     <td><a href="2.php">Augusts nyhetsbyrå</a></td>
