@@ -39,22 +39,22 @@
 
     <td><a href="1.php">Adrians kebab</a></td>
     <td><a href="1.php">Sundsvall</a></td>
-    <td><a href="1.php">Industriell ekonomi</a></td>
+    <td><a href="1.php">Industriell ekonomi, Kemiteknik</a></td>
   </tr>
   <tr>
     <td><a href="2.php">Augusts nyhetsbyrå</a></td>
     <td><a href="2.php">malmö</a></td>
-    <td><a href="2.php">Datateknik</a></td>
+    <td><a href="2.php">Datateknik, Journalistikprogrammet</a></td>
   </tr>
   <tr>
     <td><a href="3.php">Britans casino</a></td>
     <td><a href="3.php">Stockholm</a></td>
-    <td>  a href="3.php">Industriell ekonomi</td>
+    <td><a href="3.php">Industriell ekonomi</a></td>
   </tr>
   <tr>
     <td><a href="4.php">Isacs pappersbruk</a></td>
     <td><a href="4.php">Katrineholm</a></td>
-    <td> <a href="3.php">Industriell ekonomi</a></td>
+    <td> <a href="4.php">Industriell ekonomi</a></td>
   </tr>
   <tr>
     <td><a href="5.php">Andreas städservice AB</a></td>
