@@ -1,0 +1,37 @@
+.main-container{
+    text-align: center;
+}
+
+.main-wrapper{
+    display: inline-block;
+    margin: 100px;
+    width: 600px;
+}
+
+label{
+    float: left;
+    margin-top: 20px;
+}
+
+#submit{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 16px 12px;
+    border: solid grey;
+    background: darkorange;
+    color: grey;
+    border-radius: 10px;
+}
+
+#submit:hover{
+border: darkorange;
+background: grey;
+color: darkorange;
+border-radius: 10px;
+}
+
+#email, #pwd, #pwd1{
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+}

@@ -8,7 +8,7 @@
 		<h3>
 			StudentPitchen grundades 2018 och hade som mål att öppna portarna mellan studenter och företagen.
 			Idag är vi nordens största förmedlare mellan just studenter och företag.
-			Varje dag skickas det ca 10tusen exjobbs idéer via StudentHissen och vårt mål idag är att bli ännu större. <br>
+			Varje dag skickas det ca 10tusen exjobbs idéer via StudentPitchen och vårt mål idag är att bli ännu större. <br>
 		</h3>
 	</div>
 </div>

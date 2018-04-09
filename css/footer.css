@@ -1,13 +1,14 @@
+
 .contact{
     position: relative;
-    height: 30vw;
+    height: 300px;
     background-color:  rgb(204, 204, 204);
     text-align: center;
     color: darkorange;
 }
 
-.text_container1{
-    padding-top: 6vw;
+.text_container{
+    padding-top: 60px;
 }
 
 
@@ -29,14 +30,3 @@
     text-align: center;
     
 }
-
-@media only screen and (max-width: 599px) { 
-    .text_container1 { 
-      display: none; 
-    } 
-  }
-  @media only screen and (min-width: 601px) { 
-    .text_container2 { 
-      display: none; 
-    } 
-  }

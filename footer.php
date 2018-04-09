@@ -1,15 +1,10 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 <div class="contact">
-    <div class="text_container1">
+    <div class="text_container">
         <h1> kontakta oss </h1>
         <p>Dina önskemål och förslag är alltid välkomna!</p>
         <a href="mailto:isac.arvidsson97@hotmail.com?" target="_top">Send Mail</a>
-    </div>
-    <div class="text_container2">
-            <h1> kontakta oss </h1>
-            <p>Dina önskemål och förslag är alltid välkomna!</p>
-            <a href="mailto:isac.arvidsson97@hotmail.com?" target="_top">Send Mail</a>
     </div>
 </div>
     
