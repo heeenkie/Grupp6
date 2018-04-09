@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 		$resultCheck = mysqli_num_rows($result);
 
 		if ($resultCheck < 1) {
-			 header("location: ../index.php?login=emailerror");
+			 header("location: ../login_fail.php?login=emailerror");
 			//print $resultCheck;
 
 			 exit();
@@ -23,13 +23,13 @@ if(isset($_POST['submit'])){
 			if ($row = mysqli_fetch_assoc($result)) {
 				$hashedPwdCheck = password_verify($pwd, $row['user_password']);
 				if ($hashedPwdCheck == false) {
-					header("location: ../index.php?login=pwderror");
+					header("location: ../login_fail.php?login=pwderror");
 					exit();
 				}elseif ($hashedPwdCheck == true) {
 					$_SESSION['u_id'] = $row['user_id'];
 
 
-					header("location: ../profile.php");
+					header("location: ../index.php?success");
 
 					exit();
 				}
