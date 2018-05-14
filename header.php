@@ -33,7 +33,7 @@ session_start();
 			if(isset($_SESSION['u_id'])){
 				echo '<button class="drop-btn">Mina sidor</button>';
 				echo '<div class="dropdown-content" >';
-				echo '<a href="profile.php"><button>Mina sidor</button></a>';
+				echo '<a href="profile.php"><button>Profil</button></a>';
 				echo '<form action="includes/logout.php">';
 				echo '<button onclick=document.getElementById("id02").style.display="block" style="width:auto;">Logga ut</button>';
 				echo '</form>';
